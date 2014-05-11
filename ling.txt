@@ -1,0 +1,14 @@
+Places of articulation : Bilabial = lips, labiodental = teeth, Dental = tongue to tip of teeth, Alveolar = Ridge right behind teeth, Retroflex = mid toungue back of the top, Post-alveolar - shy, she, show, palatal = you, velar = 
+Manner of Articulation : Stops (oral and nasal), nasal, fricative, sibilants, lateral fricatives, affricate, flap, trill, approximant 
+Phonemes: Small abstract unitis. Analysis on phonemes to determine allophones. Notion of contrast. 
+Phonemes Contrast : if subbing out one phoneme for another in the same environment changes the meaning. Sounds to a single phoneme do not contrast. 
+Minimal Pairs : are pairs of contrasting words. button and bu?n are same phoneme. 
+Phonological Distribution : depends on the environment in which they occur. Complementary distribution mean not contrastive because contextual variant of another. Overlapping means contrasting, same environment. DOES NOT APPLY TO FREE VARIABLES
+Underlying form: happens as the elsewhere case. Default allophone is elsewhere case. 
+Phonological Processes: Assimilation, when one speech sound squires another (nasal, palatalization)
+Dissimilation: rejects
+Epenthesis: inserts a consonant
+Deletion: consonant is deleted
+Lenition: weakes
+Fortition: more consonant like
+Natural Classes: features that classify certain characteristics 

@@ -51,6 +51,8 @@ if len(curCard) != 0:
 	front = not front
 	curCard = ""
 
+#Write a function that removes all of the white space lines as well
+
 print lines
 print faceCard
 print backCard
