@@ -22,7 +22,7 @@ lines = f.readlines()
 
 print lines	
 #Strip function takes away whatever is passed in the argument. 
-lines = [line.strip() for line in lines]
+lines = [line.strip('1234567890.') for line in lines]
 
 #Parses text into two dictionaries, frontCard and backCards.
 
