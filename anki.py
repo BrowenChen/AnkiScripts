@@ -21,14 +21,22 @@ lines = f.readlines()
 
 
 
-print lines	
+# print lines	
 #Strip function takes away whatever is passed in the argument. 
 lines = [line.strip('1234567890.') for line in lines]
+
+#Now remove all white lines in the text to reformat
+newLine = []
+for line in lines:
+	if not line.isspace():
+		newLine.append(line)
+
+lines = newLine
+
 
 #Parses text into two dictionaries, frontCard and backCards.
 
 for line in lines:
-
 	if len(curCard) != 0:
 		faceCard.append(curCard) if front == True else backCard.append(curCard)
 		front = not front
@@ -53,9 +61,9 @@ if len(curCard) != 0:
 
 #Write a function that removes all of the white space lines as well
 
-print lines
-print faceCard
-print backCard
+# print lines
+# print faceCard
+# print backCard
 
 f.close()
  

@@ -1,6 +1,26 @@
+Minimal pair	 different phonemes. Evidence. 
+
 Places of articulation 	 Bilabial = lips, labiodental = teeth, Dental = tongue to tip of teeth, Alveolar = Ridge right behind teeth, Retroflex = mid toungue back of the top, Post-alveolar - shy, she, show, palatal = you, velar = 
 
-Manner of Articulation 	 Stops (oral and nasal), nasal, fricative, sibilants, lateral fricatives, affricate, flap, trill, approximant 
+Manner of Articulation 	 Stops (oral and nasal), nasal, fricative, sibilants, lateral fricatives, affricate, flap, trill, approximant, voiced, continuancy
+
+Labial Consonants	 p,b,m,w,m,f,v
+
+Coronal Consonants	 Tip of the tongue. Theta, t, d, n, s, z, l, fricatives, retroflex.
+
+Dorsal Consonants	 palatal, velar
+
+Glottal	 produced with the epiglottis. No tongue
+
+Approximant	 part of the vocal track is closer to the others, but not enough for turbulence. [w,l, r, j]
+
+Stridency	 hissing sound [s,z,fricatives]
+
+Sonorance	 consonants that have a singable or ringing quality. [w,m,n,l,r,j..]
+
+Vowel Nasalization	 oral vowels — nasal vowels \ nasal stops or vowels. Feature specification for oral vowels = [-cons, + syll, -nas]. nasal vowels = [-cons, +syll, +nas]. We can omit the -cons because of the syllabic. 
+
+Nasal Stop Devoicing	 voiced nasal — voiceless nasal stops / __ voiceless oral stops. Feature matrix would be [+cons, +voice, +nas] — [_cons, -voice, +nas]\ __ [+cons, -son, -syll, -cont, -voice]. Now simplify this.
 
 Phonemes	 Small abstract unitis. Analysis on phonemes to determine allophones. Notion of contrast. 
 
