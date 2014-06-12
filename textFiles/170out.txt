@@ -1,0 +1,8 @@
+Dijkstras	 Similar to BFS but uses a priority queue to take edge lengths into account. Need non negative edge weights. 
+
+Recurrence Relations, Masters Theorem	 Take a problem n and recursively solves it by breaking it down into subproblems. T(n) = aT([n/b]) + O(n^d). Proof of this
+ Size n, decreases at a factor of b at each evel. a^k subproblems at the lowest level, each of size n/b^k.
+	Properties of Trees
+ Tree is undirected and acyclic. Tree on n nodes have n-1 edges. Any connected undirected graph with v-1 edges is a tree. There has to also be a unique path between any pair of nodes for a tree to exist. If there were two paths, a cycle would exist. 
+	Shortest Path in DAG
+ dist(D) = in{dist(b) + dist, dist(c) + dist)}. dist(s) = 0. for all v in Vertex	. dist(v) = min(u,v) {dist(u) + l(u,l)}

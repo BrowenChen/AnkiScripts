@@ -1,0 +1,61 @@
+Dijkstras: Similar to BFS but uses a priority queue to take edge lengths into account. Need non negative edge weights. 
+Recurrence Relations, Masters Theorem: Take a problem n and recursively solves it by breaking it down into subproblems. T(n) = aT([n/b]) + O(n^d). Proof of this Size n, decreases at a factor of b at each evel. a^k subproblems at the lowest level, each of size n/b^k.
+Properties of Trees: Tree is undirected and acyclic. Tree on n nodes have n-1 edges. Any connected undirected graph with v-1 edges is a tree. There has to also be a unique path between any pair of nodes for a tree to exist. If there were two paths, a cycle would exist. 
+
+Shortest Path in DAG: dist(D) = in{dist(b) + dist, dist(c) + dist)}. dist(s) = 0. for all v in Vertex:. dist(v) = min(u,v) {dist(u) + l(u,l)}
+
+Knapsack: burglar has a bag that contains at most W pounds. weights w1….wn with dollar value v1….vn. Most valuable combination? K(w) = max of i -> n (K(w - wi) + vi). Boils down to longest path in a DAG.  
+
+Longest Increasing Subsequences: Add edges in the sequence for all nodes that are increasing. Now we do a linear pass, finding the longest subsequence at each node. L(j) is the longest ending at node J. For all (i,j) pairs, we find L(i). Thus, dynamic programming is L(j) = 1 + max(L(i): (i,j) in E). 
+
+Edit Distance: The cost of changes from one word to the other word. Word x[1…m] and y[1….n]. Min the cost (E(i-1, j) + 1, E(i, j-1) + 1, diff(i, j) + E(i-1, j-1)). diff is if i = j, the cost is 0, 1 otherwise. Solve this through DP. 
+
+Linear functions: Objective function with constraints. Feasible solution to this problem is the region under the curves. x1 + 6x2 = c (contour lines). Infeasibility is when the c is outside of the constraints. Local tests to test for optimality. 
+
+Variants of Linear Programming: Can be max or min problem. Equation or inequalities. LPs can all be reduced. To minimize, multiple objective function by -1. Turning inequality constraints require a slack variable, and setting the slack to be greater than 0. To deal with x that is unrestricted in sign, introduce x+ and x- that are greater than 0. Replaced x by X+ - X-. Turns everything into standard form.
+
+Max Flow Problem: Capacities of each edge. Flow cannot violate the capacities. Flow is also conserved. Size(f) is all of the flow leaving s. Constraints would be non negativity, constraints, flow conservation. Start with zero flow, choose a path and increase flow as much as possible. Also have residual network for flow to go backwards. 
+
+MinCut Max Flow Theorem: Size of maximum flow in a network is the capacity of the smallest (s,t) cut. Proof of optimality goes like this. Any oil transmitted must all go from L to R, and the capacity is the upper bound on the flow. The min cut is the maximum flow because that is the upper bound of the graph. 
+
+Duality: Dual minimization problems. Find set of multipliers and minimize them to find the greatest upper bound on the original primal LP. y1, y2, y3 are the multipliers that lead to a certificate of optimality. Duality Theorem. The idea is that we have these multipliers, and the left hand side must be equal to or less than the right hand side. We want to minimize these multipliers to form an upper bound on the original. 
+
+Zero-sum Games: By solving LP, row maximizer can determined to get at least V, and column minimizer can get at least V as well. Min-Max theorem.  
+
+Simplex Algorithm: While there still is a neighbor with value greater, go to that neighbor. Each vertex is satisfied by n inequalities. Neighbors if n-1 inequalities in common. We find tight constraits, release one and move it until we hit another. At this point we must transform the new point into the origin. 
+
+Simplex Agorithm In Detail, shifting the origin: Current Objective function, set the tight constraints. Release one and move until you hit another restraint. Thats the nearest vertex. Find the c value. Then shift it so that vertex is the new origin. Variables y1, y2, set everything as those new vertex and substitute. Rewrite the LP and keep doing this until you find the optimal value. 
+
+Finding starting feasible vertex: If the vertex is infeasible, add variables and minimize them until feasible region. Create m artificial variables, where m is the number of equations Add zi to left hand side of equations, make objective to be minimized. Solve that.
+
+Circuit SAT Problem: Boolean circuit. Input gates have true or false. 0<Xg<1. Or gate is Xg > Xh, Xg>Xh’, Xg<Xh+Xh’. AND gate is Xh + Xg - 1. Not gate is 1 - Xh. Verify that these are true. Circuit value problem is most general problem solvable in polynomial time. If a problem can be reduced to this, solved in poly time too then. If reduced to integer programming, thats NP cmpleleteness. 
+Search Problems: Given I, find solution S. L(I, S) = true. SAT, 2-SAT efficiently solved. 3-SAT nope. CNF is conjunctive normal function, collection of clauses and consists of disjunction of literals. 
+
+TSP : n vertices with distances. Introduce budget? Make it into a search. It was an optimization problem, but by turning it into a search problem, we can reduce it into a MST. Find total weight less than b. If we knew optimal cost, use the search problem. 
+
+Rudrata Path: Tour that vista every node exactly once. 
+
+Rudrata Cycle: given a graph, find cycle that visits each vertex once exactly. 
+Cuts and Bisections: Set of edges that once removed, disconnects the graph. Min Cut is find but with at most b edges. 
+Integer Linear Programming: Linear programming with only integers. 
+Independent Set: Given graph G, remove a set of vertices such that the remaining set are all disjoint. 
+Vertex Cover: graph with budget b. Find b vertices that touch every edge. (manhole)
+Set Cover: Given a bunch of subsets, find b of them so union is set E. 
+Clique: Set of g vertices so they all know each other 
+Longest Path: Shortest path can be solved, but longest path? TAXICABRIPOFF
+
+P: solvable in polynomial time
+NP: nondeterministic polynomial time. 
+NP-Complete Hard Problems: 3sat, TSP, Longest Path, 3D matching, Knapsack, Independent Set, ILP{, Rudrata Path, balanced Cut
+P easy problems: 2Sat, Horn, MST, Shortest Path, Bipartite Matching, Unary Knapsack, Independent Set, LP, Euler Path, Min Cut.
+Independent Set — Vertex Cover: Set of nodes S can be taken out of G to create the independent set. S is a vertex cover because S touches every edge in G. 
+Independent Set — Clique: Complete graph G has E Bar, which contain the unordered pairs of vertices not in E. S nodes is independent set of G if they have all possible edges between them in G complement. 
+Backtracking: Branching on any one variable keep branching. Prune search space if the clauses are violate. Failure if there is an empty class, success if no clauses. 
+Branch and Bound: Quick Lower bound. 
+Approximation Algorithms: How much A(I) exceeds optimum. This is a ration of A(I) / Opt(I)
+Vertex Cover Approximation: Vertex Cover can be approximated by O(logn) by the greedy algorithm. Delete the vertex of highest degree and include in the vertex cover. Better approximation would be matching. Subset of edges with no vertices in common. Maximal if no more edges can be added to it. 
+
+Hollywood actors: n actions, si dollars, pj investors. profit = sum of payments minus payments to actors. max profit.  Objective Function: max (sum of funding - sum of charges)  Integer value. {0,1}. If in set, 1. if not in set 0. sum of funding = sum(investors) yi*pi - sum(workers) xj*sj Constraints: all of the workers in Li must be 1 if investor is 1 For all i, j in Li (investors) xj < yi They all must be either 1 or 0.
+Fast Flow: careless choice leads to 1000 updates. When path is full, choose another path.  Ford-Fulkerson - Max-flow in a network. find empty flow. increase till full.  For flow: we take one path until full. Residual graph you can flow backwards until it is also full.  Augmenting path = flow backwards is above zero, or flow forwards is less than capacity. 
+
+ 

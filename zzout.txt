@@ -1,0 +1,59 @@
+Ipad 06	 01
+
+Ipad 01	 03
+
+Ipad 23	 05
+
+Ipad 28	 07
+
+Ipad 24	 09
+
+Ipad 17	 11
+
+Ipad 16	 13
+
+Ipad 21	 15
+
+Ipad 20	 17
+
+Ipad 19	 19
+
+Ipad 12	 21
+
+Ipad 25	 23
+
+Ipad 18	 25
+
+Ipad 08	 27
+
+Ipad 05	 29
+
+Ipad 29	 02
+
+Ipad 03	 04
+
+Ipad 27	 06
+
+Ipad 04	 08
+
+Ipad 09	 10
+
+Ipad 11	 12
+
+Ipad 13	 14
+
+Ipad 14	 16
+
+Ipad 15	 18
+
+Ipad 30	 20
+
+Ipad 07	 22
+
+Ipad 22	 24
+
+Ipad 02	 26
+
+Ipad 10	 28
+
+Ipad 26	 

@@ -6,3 +6,6 @@ Convert notes from evernote into Anki-readable import files to make learning eas
 Works by converting every line into tab delimited lines that is readable by Anki. 
 
 Next step would be to be able to feed in an article from Wikipedia and parse that into Anki-readable flashcards. 
+
+TODO:
+Create a standalone app for this using py2App. 

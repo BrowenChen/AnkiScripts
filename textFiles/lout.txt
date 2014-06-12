@@ -45,3 +45,30 @@ Lenition	 weakes
 Fortition	 more consonant like
 
 Natural Classes	 features that classify certain characteristics 
+
+Syllabic	 vowels. 
+
+Overlapping Distribution	 speech sounds are contrastive because they appear in the same environment but the allophones change the meanings of the words.
+
+Complementary Distribution	 speech sounds are not contrastive. Same Phoneme 
+
+Feature Rule for [s] — [esh] \ __ i	 [-syll, +cor, +ant, +cont] — [-ant] \ __[+syll, +high, -back]
+
+Feeding Order 	 rule A creates environment that rule B can apply to
+
+Bleeding Order	 rule A removes an environment that rule B would apply to
+
+Palatalization 	 The little subscript j. Produced with the tongue in the mouth near the hard palate. 
+
+Identifying Natural Classes	 Major class features, place and manner, combination of that. These include consonantal, obstruents, sonorant consonants, continuants, anterior consonants. 
+
+Rule Ordering	 underlying representation, final fronting, palatalization, surface representation.
+
+Morphemes, bound vs free	 smallest unit of meaning. Bound cannot appear alone while free morphemes can appear by itself. Affixation, compounding, etc. Study of the structure of words. 
+
+Perfective and Imperfective	 Imperfective is ongoing and habitual. Perfective is past. 
+
+Allomorphy	 allomorphs are morphnes that exhibit environmentally conditioned realizations. If a morpheme surfaces in more than one way, thats allomorphs. 
+
+Types of environments	 Phonological environments. Solely by sound. Morphological environemtsn is determined by the type of usage. Lexical environments are those that have no structured methodology. Morphological includes 1st, 2st, 3femsg, etc. 
+

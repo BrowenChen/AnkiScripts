@@ -1,0 +1,54 @@
+Discounting the Distance: size of image smaller as object gets farther. Size constantly. Image as it gets farther gets smaller. Same cues for depth as size. You can recover size given depth. Depth cues is all about context. 
+Emmert’s Law:  Apparent size of afterimage is proportional to perceived distance. After image increase in size because it is projected on a farther location. Surface influences image. 
+Pictorial Cues: Monocular and static. Flat. Think TV Pixels. 
+Occulusion: T-junctions indicate which objects are in front, but relative not metric. Not precise measurement
+Linear Perspective: Parallel lines. They will converge as goes towards horizon. How much they converge, how far lines are. Use ratios to figure out how far away they are. Renessaince painters. No good depth information about that object. 3d scenes, a
+Height in field: closer to horizon line is farther away. Assumes flat level ground plane. Calculate ratios intuitively. Distinct measurements. Rely on prior knowledge. When moon is closer to horizon, it looks huge
+Known Size: based on retinal image and actual size of the object. Familiar object, not the strongest cue. Metric. Conflicting object knowledge. Soccerfields and lakes. 
+
+
+Texture Gradient: assume stuff on ground is uniform in size. Change in size must be due to change in distance. Metric. Blocks going away. Lily ponds. Wheres the horizon? Top-down knowledge
+Atmospheric Perspective: distnatnce surfaces less contrast due to haze. Think of china. CONTRAST. 
+Shadows: Discount the illuminant. Tells relative order of different objects. 3d structure as well. When are objects in contact. Horses without shadows may look like they’re floating. Touching shadows. Use shadow to infer movement!!
+binocular cues: depth is based on images on two eyes. 
+Cues: few cues = less certain. Confliction pictorial vs depth. 
+Point of View Effect: depth depends on where you stand. Impossible shapes, forced perspective. Ames room (lord of the rings) Elfs
+Unique Point of View: When it works, it’s really cool. Vantage point, walls. 
+Ponzo Illusion: line farther up appears bigger. Different depth context. 
+Necker Cubes: based on context. 
+
+Motion Parallax: Extracts additional information 
+Accommodation: Brings target into focus. Stretch lens, how much strain is on the lens? Visual system access how much effort is needed to estimate. 
+Covergence: tied with accommodation. Angle of convergence, near = large angle. Far = smaller. Relies on both eyes. Absolute distance. 
+
+Binocular Disparity: Two pictures. Slightly different. Visual system combines the two. Two eye sees different retinal images. Hold up two fingers, close one eye and the fingers seem closer. Combine two fingers and infer. Compare the spacing between the two eyes. Compare retinal images. 0 disparity
+
+Horopter: Circle. How images of blue bar that is outside looks. What is disparity of the blue bar. Any point that lies on horopter has 0 disparity. Anythin on the circle has 0. Any point on the circle has 0 disparity. ThetaR - ThetaL = disparity
+Visual systems convert geometric phenomenon into depth. 
+Locus of points that yield single vision. 
+
+
+Cross/uncrossed disparity: if not on the circle, cross. Wanted to focus on closer bar, cross your eyes. focus on green is uncross. 
+
+Summary of Geometry of Disparity: Two eyes see slightly different things of the same scene. Points on the horopter have zero disparity, in front is crossed, in the back is uncrossed. Disparity is depth cue. 
+
+Steropsis: Left and right images are processed separately. Shape analysis, then steropsis synthesizes the two data. 
+
+How 3d Works: Two projections of Red and Blue onto a screen. Because of disparity and depth cues from disparity, the glasses filter al the rays and visual cues in the brain organize it. 
+
+Binocular Rivaliry: two images superimposed when they are conflicting images from the two retinas. Two eye compete for awareness, this is called binocular rivalry. 
+
+What does Visual Motion do?: Objects, Depth, Attention, interaction. 
+Object Recognition: Variation in dot speed lets you recognize objects. Bunch of dots moving makes a walking man look real. As soon as something rotates with motion, it looks 3d ,otherwise it’s not three d.  When praying mantis is going back and forth, it’s calculating motion. 
+Motion Parallax: Things closer to you move faster than things farther away from you. Relative motion produces object recognition, camouflage is why animals can hide. 
+Cmmon Fate: Once dots move together, you can see the movement and the object
+Optic Flow: FOE, focus of expansion specifies exact direction of travel. Detect changing size, a pilot landing on a ship. Violations of time to contact makes things funny for us. Without vision, hard to stay upright. Birds, bees, Infants, flies, pigeons. Use optic flow. Determined by actions. Swinging room made optic patterns for the young child 
+Tau: time to collision. distance/speed. r(t) / v(t). ratio of retinal image to the rate of change. 
+Change Blindness: When images change but we don’t notice the difference in image.
+
+Uses of Motion: Objects, depth, motion, attention. 
+Motion AfterAffect: “waterfall illusion”  Physical stimulus —> balanced outputs. Perception is stationary Adaption -> I dominant, inward movement Post -> O dominant -> outward movement to adjust to the aftereffect of image. Explaining with fMRI evidence. We see MRI signal still moving after the stimulus is gone. 
+
+Kinematogram: motion detects shape. No noticeable object but saw motion
+
+Reichardt Detector: Operate in retina and visual cortex (V1) 
