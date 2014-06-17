@@ -1,0 +1,28 @@
+Major Triad- Tensions	- add 6th &/or 9th -add Maj 7th and 13th -add # 11 to either above (dissonance)
+
+Minor 7th- Tensions	-add 9 -add 11 &/or 13th above 9th minor triad- Tensions
+
+(functioning as i )	-add 6 &/or 9 -add Maj 7th -add 9 &/or 13  (for added dissonance)
+
+ sus4- Tensions	add 9 &/or 13
+
+Dominant 7th- Tensions (as V7)	add 9 &/or 13 add b9 &/or b13 add #11 to either of above
+
+Diminished 7th - Tensions	any note a whole step above a chord tone
+
+Half- Diminished 7th- Tensions	add 9 add 11 add Maj 6/13 (dissonance)
+
+Melodic Minor Mode 1	minor major 7
+
+Melodic Minor Mode 2	Dorian b2 1 b2 b3 4 5 6 b7 1
+
+Melodic Minor Mode 3	Lydian Augmented 1 2 3 #4 #5   6  7
+
+Melodic Minor Mode 4	Lydian Dominant 1 2 3 #4 5 6 b7 1
+
+Melodic Minor Mode 5	Mixolydian b13 1 2 3 4 5 b6 b7 1
+
+Melodic Minor Mode 6	Locrian #2 1 2 b3 4 b5 b6 b7 1
+
+Melodic Minor Mode 7	Alt      1 b2 b3 b4  b5   b6   b7  1      1 b9 #9 M3 #11 b13 b7  1
+
