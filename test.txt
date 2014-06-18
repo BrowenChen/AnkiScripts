@@ -1,8 +1,0 @@
-
-Admissibile:underestimates the true cost. 
-Consistent :h(s) - h(t) < cost(s,t)
-A* Search: f(N) = g(n) + h(n). Greedy algorithm plus uniform cost. Total cost plus the heuristic to find the optimal path. 
-Breadth First Search: Enqueue root note. Dequeue and exam. Enqueue all successors. Examine all the nodes until queue is empty. Keep doing. One depth at a time.
-Uniform Cost Search: Expand the cheapest past first always
-DFS: Pick the first and expand all the way. Then do next node
-A*: f(g) = Uniform Cost + Heuristics

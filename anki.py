@@ -6,6 +6,10 @@ Anki parser
 How to reformat a note file by text. Bolded text is the front of the card, unbolded text is tab delimited for the 
 back of the Anki Flashcard
 
+v1.0
+-bugs
+Implement error checking. If the card has any instance of ":", then error will occur.
+
 
 """
 

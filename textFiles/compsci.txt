@@ -1,0 +1,17 @@
+HTTP: URL - browser - protocol, host, port, server, request, IP add DNS, socket, network connection, server software. Node.js is both server and client side. HTML, CSS, JS, back-end. HTML structure, CSS appearance, JS behavior. 
+
+express: web app framework for node. Use it’s scaffolding to create web applications from the barebones structure of node. Express generator to generate the dependencies. JSON file is similar to XML. Describes APP and dependencies. Express engine localhost
+
+Deploy: Heroku command is git push heroku master. Use url to see deployed website. 
+FS.readFileSynch and Bufer.toString: read from html file to use the data from html. 
+
+Debugging Node: NodeInspector install. 
+
+Node/express get and send: app.listen starts listening for the get and sends over the response through a function. 
+
+Wireframming: HTML doc for copywriting ideas to present. Use cheerio and commander libraries as well.
+
+WebFrameworks: Python, Ruby, Javascript for scripting, Django, Rails, Node.js for engine and server connections.
+
+Deployment Sections: Development, Staging, Production. You can SSH into the server directly and 3000 to see the app. 
+
